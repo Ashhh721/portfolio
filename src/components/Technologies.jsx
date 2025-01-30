@@ -7,7 +7,7 @@ import { SiExpress, SiMongodb,  } from "react-icons/si"
  export const Technologies = () => {
   return ( 
     <div className="pb-24">
-        <h2 className="my-20 text-center text-4xl">Technologies</h2>
+        <h2 className="my-20 text-center text-4xl">Technology</h2>
         <div className="flex flex-wrap items-center justify-center gap-4">
             <div >
 

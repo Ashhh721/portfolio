@@ -8,7 +8,7 @@
             <div className="flex flex-col items-center justify-center mt-5">
                 <form action='https://getform.io/f/apjjwxla'
                 method="POST"
-                className=" bg-slate-950 px-8 py-6 rounded-xl  ">
+                className=" bg-slate-950  px-8 py-6 border rounded-xl ">
                     <h1 className="text-xl font-semibold mb-4 px-8 py-6 rounded-r-xl">Send Your Message</h1>
                     <div className="flex flex-col mb-4">
                         <label 
@@ -36,13 +36,13 @@
                         <label 
                         className = "block text-white-700 ">Message</label>
                     
-                    <textarea className="block text-white-700"
+                    <textarea className="shadow rounded-lg appearance-none border rounded-lg py-2 px-3 text-white-700 leading-tigh focus:outline-none focus:shadow-outline "
                     id="name"
                     name="message"
                     type="text"
                     placeholder="Enter your Query">
                     
-                    /</textarea>
+                    </textarea>
                    
                     </div>
                     <button type="submit" className=" bg-white text-black rounded-xl px-3 py-2 hover:bg-indigo-950 duration-100">
